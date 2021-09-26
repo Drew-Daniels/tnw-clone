@@ -20,7 +20,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -54,12 +53,40 @@ table {
     font-weight: 400;
 }
 
-button {
-    text-transform: uppercase;
-    border: none;
-    background: transparent;
+nav {
+	display: inline-block;
+}
+
+.toolbar {
+	display: flex;
+	justify-content: space-between;
 }
 
 .navbar-list {
     display: flex;
+}
+
+.navbar-item {
+	display: flex;
+	padding: 10px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #5a5f6e;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	font-size: .775rem;
+}
+
+.navbar-bookend {
+	margin: 10px;
+	height: 21px;
+}
+
+.ad-banner {
+	background-color: rgb(255, 221, 51);
+	padding: 10px;
+	font-size: .7rem;
 }
