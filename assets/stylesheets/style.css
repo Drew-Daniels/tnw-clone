@@ -48,3 +48,18 @@ table {
 }
 /* Eric Meyer CSS Reset */
 /* My Code */
+
+* {
+    font-family: 'Cairo', 'sans-serif';
+    font-weight: 400;
+}
+
+button {
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+}
+
+.navbar-list {
+    display: flex;
+}
