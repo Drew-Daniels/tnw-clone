@@ -59,6 +59,30 @@ nav {
 	display: inline-block;
 }
 
+h1, h2, h3 {
+	color: #fff;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	padding-top: 25px;
+}
+
 .toolbar {
 	display: flex;
 	justify-content: space-between;
@@ -92,3 +116,123 @@ nav {
 	padding: 10px;
 	font-size: .7rem;
 }
+
+.icon-large {
+	height: 30px;
+	margin: 10px;
+}
+
+.icon-small {
+	height: 20px;
+}
+
+.brand-logo {
+	width: 25%;
+	flex-grow: 0 0 100px;
+}
+
+.brand-banner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.brand-logo-container {
+	width: 80%;
+	padding: 50px 100px;
+}
+
+.brand-logo-anchor {
+	display: flex;
+}
+
+.brand-slogan-container {
+	display: flex;
+	align-content: center;
+	padding-right: 150px;
+	width: 20%;
+}
+
+.brand-slogan-gray {
+	font-family: 'Roboto Condensed';
+	font-weight: 200;
+	font-size: 24px;
+	text-align: center;
+	color: rgb(80, 86, 102);
+	display: flex;
+	align-items: center;
+}
+
+.brand-slogan-white {
+	font-family: 'Roboto Condensed';
+	font-weight: 100;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+
+.social-anchor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.socials-list {
+	display: flex;
+	width: 600px;
+}
+
+.socials-list-item {
+	margin: 5px;
+}
+
+.footer-main {
+	display: flex;
+	padding-bottom: 25px;
+}
+
+.footer-socials {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	justify-content: space-between;
+}
+
+.footer-links {
+	display: flex;
+	width: 50%;
+}
+
+.footer-link-child-container {
+	width: 50%;
+}
+
+.footer-link {
+	color: rgb(0, 204, 204);
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.footer-text {
+	color: rgb(167, 170, 178);
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+}
+
+.highlight {
+	color: #fff;
+	font-weight: 600;
+}
+
+.copyright-info {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.footer-bottom {
+	border-top: .5px solid rgb(167, 170, 178);
+}
+
