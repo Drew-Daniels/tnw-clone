@@ -85,6 +85,11 @@ button {
 	background-color:rgb(0, 204, 204);
 }
 
+.btn-base span,
+.btn-base img {
+	vertical-align: middle;
+}
+
 footer {
 	background-color: black;
 	display: flex;
@@ -275,4 +280,12 @@ footer {
 
 .popular-articles-section {
 	background-color:rgb(247, 248, 248);
+}
+
+.big-number {
+	font-size: 24px;
+}
+
+.popular-article-link {
+	text-decoration: none;
 }
