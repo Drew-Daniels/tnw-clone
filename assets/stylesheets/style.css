@@ -60,7 +60,6 @@ nav {
 }
 
 h1, h2, h3 {
-	color: #fff;
 	font-weight: 600;
 }
 
@@ -74,6 +73,16 @@ h2 {
 
 h3 {
 	font-size: 12px;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 12px;
+	padding: 5px 10px;
+	color: #fff;
+	background-color:rgb(0, 204, 204);
 }
 
 footer {
@@ -115,6 +124,10 @@ footer {
 	background-color: rgb(255, 221, 51);
 	padding: 10px;
 	font-size: .7rem;
+}
+
+.icon-extra-large {
+	height: 60px;
 }
 
 .icon-large {
@@ -193,6 +206,10 @@ footer {
 	padding-bottom: 25px;
 }
 
+.footer-header {
+	color: #fff;
+}
+
 .footer-socials {
 	display: flex;
 	flex-direction: column;
@@ -236,3 +253,15 @@ footer {
 	border-top: .5px solid rgb(167, 170, 178);
 }
 
+.customer-logo {
+	height: 75px;
+}
+
+.suggested-video-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.thumbnail {
+	height: 100px;
+}
