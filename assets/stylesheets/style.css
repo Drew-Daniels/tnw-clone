@@ -289,3 +289,27 @@ footer {
 .popular-article-link {
 	text-decoration: none;
 }
+
+.channel-container {
+	display: flex;
+}
+
+#plugg-channel {
+	background-image: url('../images/pictures/background-1.webp');
+}
+
+#neural-channel {
+	background-image: url('../images/pictures/background-2.jpg');
+}
+
+#shft-channel {
+	background-image: url('../images/pictures/background-3.jpg');
+}
+
+#growth-quarters-channel {
+	background-image: url('../images/pictures/background-4.jpg');
+}
+
+#hard-fork-channel {
+	background-image: url('../images/pictures/background-5.webp');
+}
