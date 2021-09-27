@@ -53,6 +53,8 @@ table {
     font-weight: 400;
 }
 
+/* Changes when width is 1023px */
+
 nav {
 	display: inline-block;
 }
