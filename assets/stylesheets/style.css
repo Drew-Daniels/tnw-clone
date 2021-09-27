@@ -257,9 +257,16 @@ footer {
 	height: 75px;
 }
 
+.media-container {
+	display: flex;
+	justify-content: center;
+}
+
 .suggested-video-list {
 	display: flex;
 	flex-direction: column;
+	height: 545px;
+	overflow-y: scroll;
 }
 
 .thumbnail {
