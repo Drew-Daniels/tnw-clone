@@ -321,6 +321,10 @@ footer {
 	border-radius: 5px 0 0 5px;
 }
 
+.featured-articles-section {
+	display: grid;
+}
+
 #plugg-channel {
 	background-image: url('../images/pictures/background-1.webp');
 }
