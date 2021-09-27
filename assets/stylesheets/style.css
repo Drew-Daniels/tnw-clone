@@ -272,3 +272,7 @@ footer {
 .thumbnail {
 	height: 100px;
 }
+
+.popular-articles-section {
+	background-color:rgb(247, 248, 248);
+}
