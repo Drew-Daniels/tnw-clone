@@ -294,6 +294,33 @@ footer {
 	display: flex;
 }
 
+.subscribe-container {
+	display: flex;
+}
+
+.subscribe-btn {
+	border: none;
+	border-radius: 0 5px 5px 0;
+	background-color: #fff;
+	color: rgb(167, 170, 178);
+}
+
+.subscribe-input {
+	border: none;
+	border-radius: 0;
+}
+
+.newsletter-signup-section {
+	background-image: url('../images/pictures/newsletter-signup-background.webp');
+	background-position: center;
+}
+
+.image-container {
+	background-color: #fff;
+	display: flex;
+	border-radius: 5px 0 0 5px;
+}
+
 #plugg-channel {
 	background-image: url('../images/pictures/background-1.webp');
 }
