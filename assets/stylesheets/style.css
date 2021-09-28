@@ -85,9 +85,20 @@ button {
 	background-color:rgb(0, 204, 204);
 }
 
+.btn-base {
+	border: 1px solid gray;
+	text-decoration: none;
+	color: rgb(80,86,102);
+	padding: 0 5px;
+}
+
 .btn-base span,
 .btn-base img {
 	vertical-align: middle;
+}
+
+.rounded-btn {
+	border-radius: 25px;
 }
 
 footer {
@@ -278,16 +289,24 @@ footer {
 	height: 100px;
 }
 
+.popular-articles-list {
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+
 .popular-articles-section {
 	background-color:rgb(247, 248, 248);
 }
 
 .big-number {
 	font-size: 24px;
+	color: rgb(204, 0, 153);
 }
 
 .popular-article-link {
 	text-decoration: none;
+	word-wrap: break-word;
+	color: #000;
 }
 
 .channel-container {
@@ -343,4 +362,52 @@ footer {
 
 #hard-fork-channel {
 	background-image: url('../images/pictures/background-5.webp');
+}
+
+.customers-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.work-with-us-section {
+	display: flex;
+}
+
+.work-with-us-text-container {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.work-with-us-graphics-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+}
+
+.work-with-us-graphic {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.latest-stories-list {
+	display: flex;
+}
+
+.latest-story-article {
+	text-decoration: none;
+}
+
+.latest-story-title {
+	color: #000;
+}
+
+.latest-story-time-since-published {
+	color: rgb(167,170,178);
+}
+
+.latest-story-article {
+	display: flex;
+	flex-direction: column;
 }
