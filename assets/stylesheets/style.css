@@ -68,7 +68,7 @@ h2 {
 }
 
 h3 {
-	font-size: 12px;
+	font-size: 24px;
 }
 
 button {
@@ -339,6 +339,11 @@ footer {
 
 .channel-container {
 	display: flex;
+	color: white;
+}
+
+.channel-image {
+	height: 25%;
 }
 
 .subscribe-container {
