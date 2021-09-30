@@ -243,16 +243,16 @@ footer {
 	display: flex;
 	width: 50%;
 	line-height: 30px;
+	font-size: 18px;
 }
 
 .footer-link-child-container {
 	width: 50%;
 }
 
-.footer-link {
+.highlighted-link {
 	color: rgb(0, 204, 204);
 	text-decoration: none;
-	font-size: 18px;
 }
 
 .footer-text {
@@ -343,6 +343,8 @@ footer {
 
 .subscribe-container {
 	display: flex;
+	width: 50%;
+	justify-content: center;
 }
 
 .subscribe-btn {
@@ -355,11 +357,29 @@ footer {
 .subscribe-input {
 	border: none;
 	border-radius: 0;
+	width: 70%;
 }
 
 .newsletter-signup-section {
 	background-image: url('../images/pictures/newsletter-signup-background.webp');
 	background-position: center;
+	background-attachment: fixed;
+	background-size: 120%;
+	background-repeat: no-repeat;
+	height: 300px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.newsletter-signup-section .socials-list {
+	justify-content: center;
+}
+
+.newsletter-signup-section > * {
+	margin: 10px;
 }
 
 .image-container {
