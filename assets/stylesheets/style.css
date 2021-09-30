@@ -337,13 +337,44 @@ footer {
 	color: #000;
 }
 
+.channels-section {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(247, 248, 248);
+	padding-top: 100px;
+}
+
 .channel-container {
 	display: flex;
 	color: white;
+	justify-content: center;
+}
+
+.channel {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 232px;
+	height: 200px;
+	margin: 50px 10px 100px 10px;
+	padding: 25px;
+}
+
+.channel-header {
+	color: black;
+	margin-left: 60px;
+	margin-bottom: 25px;
 }
 
 .channel-image {
-	height: 25%;
+	height: 15%;
+}
+
+.channel-text {
+	text-align: center;
 }
 
 .subscribe-container {
