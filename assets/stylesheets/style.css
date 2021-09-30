@@ -53,22 +53,18 @@ table {
     font-weight: 400;
 }
 
-/* Changes when width is 1023px */
-
 nav {
 	display: inline-block;
 }
 
-h1, h2, h3 {
-	font-weight: 600;
-}
-
 h1 {
-	font-size: 36px;
+	font-size: 48px;
+	font-weight: 900;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 36px;
+	font-weight: 700;
 }
 
 h3 {
@@ -225,7 +221,7 @@ footer {
 
 .footer-main {
 	display: flex;
-	padding: 25px 0 25px 100px;
+	padding: 25px 0 25px 150px;
 }
 
 .footer-header {
@@ -289,26 +285,41 @@ footer {
 	justify-content: center;
 }
 
+.suggested-videos {
+	width: 82%;
+}
+
+#video-area {
+	background-color: rgb(247, 248, 248);
+	padding-bottom: 100px;
+}
+
+.suggested-videos > h2 {
+	margin: 25px 0;
+}
+
 .media-container {
 	display: flex;
-	justify-content: center;
-	width: 90%;
 }
 
 .suggested-video-list {
 	display: flex;
 	flex-direction: column;
+	margin-left: 25px;
 	height: 545px;
+	width: 280px;
 	overflow-y: scroll;
+	-webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
+	mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
 }
 
 .thumbnail {
-	height: 100px;
+	/* height: 100px; */
+	width: 205px;
 }
 
 .popular-articles-list {
 	display: flex;
-	/* flex-wrap: wrap; */
 }
 
 .popular-articles-section {
@@ -390,8 +401,9 @@ footer {
 
 .work-with-us-section {
 	display: flex;
-	width: 93%;
+	width: 84%;
 	padding-top: 50px;
+	justify-content: space-between;
 }
 
 .work-with-us-text-container {
@@ -416,7 +428,6 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	height: 250px;
-	justify-content: space-between;
 	align-items: center;
 }
 
