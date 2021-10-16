@@ -287,6 +287,9 @@ footer {
 
 .suggested-videos {
 	width: 82%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #video-area {
@@ -459,7 +462,7 @@ footer {
 	display: flex;
 	width: 84%;
 	padding-top: 50px;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .work-with-us-text-container {
