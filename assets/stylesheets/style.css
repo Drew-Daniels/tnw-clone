@@ -429,6 +429,13 @@ footer {
 
 .featured-articles-section {
 	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	grid-template-rows: 2fr 1fr 1fr;
+}
+
+.featured-article-image {
+	height: 100%;
+	width: auto;
 }
 
 #plugg-channel {
