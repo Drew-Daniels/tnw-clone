@@ -327,17 +327,33 @@ footer {
 
 .popular-articles-section {
 	background-color:rgb(247, 248, 248);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
 }
 
-.big-number {
+.popular-articles-header {
+	color: rgb(167, 170, 178);
+	font-weight: 600;
 	font-size: 24px;
-	color: rgb(204, 0, 153);
+	margin-bottom: 50px;
+}
+
+.popular-article {
+	margin: 0px 25px;
 }
 
 .popular-article-link {
 	text-decoration: none;
 	word-wrap: break-word;
 	color: #000;
+}
+
+.big-number {
+	font-size: 24px;
+	color: rgb(204, 0, 153);
 }
 
 .channels-section {
