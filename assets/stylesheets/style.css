@@ -521,6 +521,14 @@ footer {
 	
 }
 
+.latest-stories-section {
+	margin: 0 100px;
+}
+
+.latest-stories-header {
+	margin: 100px 0 50px 0
+}
+
 .latest-stories-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -548,4 +556,14 @@ footer {
 .latest-story-article {
 	display: flex;
 	flex-direction: column;
+}
+
+.more-news-btn-container {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.more-news-btn {
+	padding: 10px;
 }
