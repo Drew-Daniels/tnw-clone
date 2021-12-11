@@ -324,13 +324,19 @@ footer {
 	display: flex;
 }
 
-.popular-articles-section {
+.popular-articles-container {
+	display: flex;
+	justify-content: center;
 	background-color:rgb(247, 248, 248);
+}
+
+.popular-articles-section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 250px;
+	max-width: 1500px;
 }
 
 .popular-articles-header {
@@ -343,6 +349,7 @@ footer {
 .popular-article {
 	margin: 0px 25px;
 	display: flex;
+	font-size: 18px;
 }
 
 .popular-article-link {
@@ -551,16 +558,13 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 100px;
 }
 
 .latest-stories-container {
 	display: flex;
 	width: 90%;
 	flex-direction: column;
-}
-
-.latest-stories-header {
-	margin: 50px 0;
 }
 
 .latest-stories-list {
