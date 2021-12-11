@@ -580,15 +580,17 @@ footer {
 	flex-wrap: wrap;
 }
 
-.latest-story-article {
+.latest-story {
 	text-decoration: none;
 	flex-basis: 25%;
+	display: flex;
+	flex-direction: column;
 }
 
-.latest-story-article > *{
-	background-size: cover;
+.latest-story-article-image {
 	height: 100%;
 	width: 100%;
+	object-fit: cover;
 }
 
 .latest-story-title {
@@ -597,11 +599,6 @@ footer {
 
 .latest-story-time-since-published {
 	color: rgb(167,170,178);
-}
-
-.latest-story-article {
-	display: flex;
-	flex-direction: column;
 }
 
 .more-news-btn-container {
