@@ -161,34 +161,36 @@ footer {
 }
 
 .brand-logo {
-	width: 25%;
-	flex-grow: 0 0 100px;
+	width: 100%;
+}
+
+.brand-banner-container {
+	display: flex;
+	justify-content: center;
 }
 
 .brand-banner {
 	display: flex;
-	justify-content: space-between;
+	width: 75%;
 }
 
 .brand-logo-anchor {
 	display: flex;
 }
 
-.brand-slogan-container {
-	display: flex;
-	align-content: center;
-	padding-right: 150px;
-	width: 20%;
+.brand-logo-container {
+	width: auto;
 }
 
-.brand-slogan-gray {
+.brand-slogan-container {
+	width: 50%;
 	font-family: 'Roboto Condensed';
 	font-weight: 200;
 	font-size: 24px;
-	text-align: center;
 	color: rgb(80, 86, 102);
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
 }
 
 .brand-slogan-white {
@@ -605,9 +607,19 @@ footer {
 	.nav-col-2, .nav-col-3, .ad-banner {
 		display: none;
 	}
+	.brand-logo-container {
+		width: 50%;
+	}
+	.brand-slogan-container {
+		font-size: 18px;
+	}
+	.brand-logo-anchor, .brand-slogan-container {
+		justify-content: center;
+	}
 	/* Change nav-col-1 item */
 	.brand-banner {
 		flex-direction: column;
+		align-items: center;
 	}
 	#apps-btn {
 		display: flex;
@@ -617,9 +629,14 @@ footer {
 /* LARGE VIEWPORT RULES */
 @media (min-width: 1024px) {
 	.brand-logo-container {
-		width: 80%;
+		width: 100%;
 		padding: 50px 100px;
 	}
+	.brand-logo {
+		max-width: 200px;
+	}
+
+
 	#apps-btn {
 		display: none;
 	}
