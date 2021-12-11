@@ -48,13 +48,21 @@ table {
 /* Eric Meyer CSS Reset */
 /* My Code */
 
+/* Rules applied regardless of screen size */
 * {
     font-family: 'Cairo', 'sans-serif';
     font-weight: 400;
 }
 
+.nav-container {
+	display: flex;
+	justify-content: center;
+}
+
 nav {
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
 }
 
 h1 {
@@ -110,11 +118,6 @@ footer {
 	padding-top: 25px;
 }
 
-.toolbar {
-	display: flex;
-	justify-content: space-between;
-}
-
 .navbar-list {
     display: flex;
 }
@@ -165,11 +168,6 @@ footer {
 .brand-banner {
 	display: flex;
 	justify-content: space-between;
-}
-
-.brand-logo-container {
-	width: 80%;
-	padding: 50px 100px;
 }
 
 .brand-logo-anchor {
@@ -317,7 +315,6 @@ footer {
 }
 
 .thumbnail {
-	/* height: 100px; */
 	width: 205px;
 }
 
@@ -476,6 +473,11 @@ footer {
 	color: white;
 }
 
+.conference-text-container {
+	display: flex;
+	flex-direction: column;
+}
+
 #plugg-channel {
 	background-image: url('../images/pictures/background-1.webp');
 }
@@ -596,4 +598,29 @@ footer {
 
 .more-news-btn {
 	padding: 10px;
+}
+
+/* SMALL VIEWPORT RULES */
+@media (max-width: 1023px) {
+	.nav-col-2, .nav-col-3, .ad-banner {
+		display: none;
+	}
+	/* Change nav-col-1 item */
+	.brand-banner {
+		flex-direction: column;
+	}
+	#apps-btn {
+		display: flex;
+	}
+}
+
+/* LARGE VIEWPORT RULES */
+@media (min-width: 1024px) {
+	.brand-logo-container {
+		width: 80%;
+		padding: 50px 100px;
+	}
+	#apps-btn {
+		display: none;
+	}
 }
