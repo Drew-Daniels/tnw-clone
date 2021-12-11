@@ -515,11 +515,16 @@ footer {
 	background-image: url('../images/pictures/background-5.webp');
 }
 
-.customers-container {
+.customer-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 50px 0;
+}
+
+.customer {
+	display: flex;
+	justify-content: center;
 }
 
 .work-with-us-section {
@@ -628,17 +633,14 @@ footer {
 	.brand-banner-container {
 		height: 150px;
 	}
-
 	.brand-banner {
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-around;
 	}
-
 	#apps-btn {
 		display: flex;
 	}
-
 	.popular-articles-list {
 		flex-direction: column;
 	}
@@ -665,6 +667,9 @@ footer {
 	.featured-article:nth-child(5) {
 		grid-column: 2;
 		grid-row: 4;
+	}
+	.customer {
+		flex-basis: 33.333333%;
 	}
 }
 
