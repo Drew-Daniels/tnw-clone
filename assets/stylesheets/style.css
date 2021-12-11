@@ -628,6 +628,14 @@ footer {
 	#apps-btn {
 		display: flex;
 	}
+
+	.popular-articles-list {
+		flex-direction: column;
+	}
+
+	.popular-article {
+		margin-top: 25px;
+	}
 }
 
 /* LARGE VIEWPORT RULES */
