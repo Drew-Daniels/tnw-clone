@@ -311,14 +311,13 @@ footer {
 	flex-direction: column;
 	margin-left: 25px;
 	height: 545px;
-	width: 280px;
 	overflow-y: scroll;
 	-webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
 	mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
 }
 
 .thumbnail {
-	width: 255px;
+	/* width: 255px; */
 }
 
 .popular-articles-list {
@@ -530,7 +529,7 @@ footer {
 	display: flex;
 	width: 84%;
 	padding-top: 50px;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .work-with-us-text-container {
