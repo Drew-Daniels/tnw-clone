@@ -600,6 +600,9 @@ footer {
 	.work-with-us-graphic {
 		flex-direction: column;
 	}
+	.latest-story {
+		flex-basis: 42%;
+	}
 
 }
 /* LARGE VIEWPORT RULES */
