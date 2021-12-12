@@ -527,7 +527,7 @@ footer {
 
 .work-with-us-section {
 	display: flex;
-	width: 84%;
+	width: 60%;
 	padding-top: 50px;
 	justify-content: space-between;
 }
@@ -536,6 +536,8 @@ footer {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
+	flex-shrink: 0;
+	flex-grow: 0;
 }
 
 .work-with-us-text-container > p {
@@ -553,7 +555,7 @@ footer {
 .work-with-us-graphics-container {
 	display: flex;
 	flex-wrap: wrap;
-	height: 250px;
+	height: 300px;
 	align-items: center;
 }
 
@@ -562,7 +564,7 @@ footer {
 	flex-wrap: wrap;
 	align-items: center;
 	flex-basis: 50%;
-	
+	justify-content: center;
 }
 
 .latest-stories-section {
