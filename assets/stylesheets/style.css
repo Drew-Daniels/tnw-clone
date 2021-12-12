@@ -536,7 +536,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
-	flex-shrink: 0;
+	flex-shrink: 1;
 	flex-grow: 0;
 }
 
@@ -561,7 +561,6 @@ footer {
 
 .work-with-us-graphic {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	flex-basis: 50%;
 	justify-content: center;
@@ -671,6 +670,10 @@ footer {
 	.customer {
 		flex-basis: 33.333333%;
 	}
+	.work-with-us-graphic {
+		flex-direction: column;
+	}
+
 }
 
 /* LARGE VIEWPORT RULES */
