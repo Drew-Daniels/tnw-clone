@@ -53,32 +53,26 @@ table {
     font-family: 'Cairo', 'sans-serif';
     font-weight: 400;
 }
-
 .nav-container {
 	display: flex;
 	justify-content: center;
 }
-
 nav {
 	display: flex;
 	justify-content: space-between;
 	width: 95%;
 }
-
 h1 {
 	font-size: 48px;
 	font-weight: 900;
 }
-
 h2 {
 	font-size: 36px;
 	font-weight: 700;
 }
-
 h3 {
 	font-size: 24px;
 }
-
 button {
 	border: none;
 	border-radius: 5px;
@@ -88,20 +82,17 @@ button {
 	color: #fff;
 	background-color:rgb(0, 204, 204);
 }
-
 .btn-base {
 	border: 1px solid gray;
 	text-decoration: none;
 	color: rgb(80,86,102);
 	padding: 0 5px;
 }
-
 .btn-alt {
 	padding: 10px 0; 
 	width: 100px;
 	margin-top: 25px;
 }
-
 .btn-base span,
 .btn-base img {
 	vertical-align: middle;
@@ -110,23 +101,19 @@ button {
 .rounded-btn {
 	border-radius: 25px;
 }
-
 footer {
 	background-color: black;
 	display: flex;
 	flex-direction: column;
 	padding-top: 25px;
 }
-
 .navbar-list {
     display: flex;
 }
-
 .navbar-item {
 	display: flex;
 	padding: 10px;
 }
-
 .nav-link {
 	text-decoration: none;
 	color: #5a5f6e;
@@ -135,54 +122,43 @@ footer {
 	align-items: center;
 	font-size: .775rem;
 }
-
 .navbar-bookend {
 	margin: 10px;
 	height: 21px;
 }
-
 .ad-banner {
 	background-color: rgb(255, 221, 51);
 	padding: 10px;
 	font-size: .7rem;
 }
-
 .icon-extra-large {
 	height: 110px;
 }
-
 .icon-large {
 	height: 30px;
 	margin: 10px;
 }
-
 .icon-small {
 	height: 25px;
 }
-
 .brand-logo {
 	width: 100%;
 }
-
 .brand-banner-container {
 	display: flex;
 	justify-content: center;
 }
-
 .brand-banner {
 	display: flex;
 	justify-content: space-between;
 	width: 1500px;
 }
-
 .brand-logo-anchor {
 	display: flex;
 }
-
 .brand-logo-container {
 	width: auto;
 }
-
 .brand-slogan-container {
 	width: 50%;
 	font-family: 'Roboto Condensed';
@@ -193,7 +169,6 @@ footer {
 	align-items: center;
 	justify-content: flex-end;
 }
-
 .brand-slogan-white {
 	font-family: 'Roboto Condensed';
 	font-weight: 100;
@@ -204,108 +179,105 @@ footer {
 	align-items: center;
 	padding-left: 10px;
 }
-
 .social-anchor {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
 .socials-list {
 	display: flex;
 	width: 600px;
 }
-
 .socials-list-item {
 	margin: 5px;
 }
-
 .footer-main {
 	display: flex;
 	padding: 25px 0 25px 150px;
 }
-
 .footer-header {
 	color: #fff;
 }
-
 .footer-socials {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
 	justify-content: space-between;
 }
-
 .footer-logo-slogan-container {
 	height: 80%;
 }
-
 .footer-links {
 	display: flex;
 	width: 50%;
 	line-height: 30px;
 	font-size: 18px;
 }
-
 .footer-link-child-container {
 	width: 50%;
 }
-
 .highlighted-link {
 	color: rgb(0, 204, 204);
 	text-decoration: none;
 }
-
 .footer-text {
 	color: rgb(167, 170, 178);
 	font-size: 12px;
 	text-align: center;
 	line-height: 18px;
 }
-
 .highlight {
 	color: #fff;
 	font-weight: 600;
 }
-
 .copyright-info {
 	padding-top: 25px;
 	padding-bottom: 50px;
 }
-
 .footer-bottom {
 	border-top: .5px solid rgb(167, 170, 178);
 }
-
 .customer-logo {
 	height: 75px;
 }
-
 .content-container {
 	display: flex;
 	justify-content: center;
 }
-
 .suggested-videos {
 	width: 82%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
-#video-area {
+.video-content {
 	background-color: rgb(247, 248, 248);
 	padding-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
-
+.videos-container {
+	display: flex;
+	justify-content: center;
+}
+.main-video-container {
+	position: relative;
+	width: 40%;
+}
+.main-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 .suggested-videos > h2 {
 	margin: 25px 0;
 }
-
 .media-container {
 	display: flex;
 }
-
 .suggested-video-list {
 	display: flex;
 	flex-direction: column;
@@ -315,15 +287,12 @@ footer {
 	-webkit-mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
 	mask-image: linear-gradient(to bottom, black 95%, transparent 100%);
 }
-
 .thumbnail {
 	/* width: 255px; */
 }
-
 .popular-articles-list {
 	display: flex;
 }
-
 .popular-articles-container {
 	display: flex;
 	justify-content: center;
@@ -331,7 +300,6 @@ footer {
 	margin-top: 25px;
 	padding: 25px 0;
 }
-
 .popular-articles-section {
 	display: flex;
 	flex-direction: column;
@@ -339,45 +307,38 @@ footer {
 	align-items: center;
 	max-width: 1500px;
 }
-
 .popular-articles-header {
 	color: rgb(167, 170, 178);
 	font-weight: 600;
 	font-size: 24px;
 	margin-bottom: 50px;
 }
-
 .popular-article {
 	margin: 0px 25px;
 	display: flex;
 	font-size: 18px;
 }
-
 .popular-article-link {
 	text-decoration: none;
 	word-wrap: break-word;
 	color: #000;
 	margin-left: 10px;
 }
-
 .big-number {
 	font-size: 24px;
 	color: rgb(204, 0, 153);
 }
-
 .channels-section {
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(247, 248, 248);
 	padding-top: 100px;
 }
-
 .channel-container {
 	display: flex;
 	color: white;
 	justify-content: center;
 }
-
 .channel {
 	display: flex;
 	flex-direction: column;
@@ -390,40 +351,33 @@ footer {
 	margin: 50px 10px 100px 10px;
 	padding: 25px;
 }
-
 .channel-header {
 	color: black;
 	margin-left: 60px;
 	margin-bottom: 25px;
 }
-
 .channel-image {
 	height: 15%;
 }
-
 .channel-text {
 	text-align: center;
 }
-
 .subscribe-container {
 	display: flex;
 	width: 50%;
 	justify-content: center;
 }
-
 .subscribe-btn {
 	border: none;
 	border-radius: 0 5px 5px 0;
 	background-color: #fff;
 	color: rgb(167, 170, 178);
 }
-
 .subscribe-input {
 	border: none;
 	border-radius: 0;
 	width: 70%;
 }
-
 .newsletter-signup-section {
 	background-image: url('../images/pictures/newsletter-signup-background.webp');
 	background-position: center;
@@ -437,51 +391,42 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
-
 .newsletter-signup-section .socials-list {
 	justify-content: center;
 }
-
 .newsletter-signup-section > * {
 	margin: 10px;
 }
-
 .image-container {
 	background-color: #fff;
 	display: flex;
 	border-radius: 5px 0 0 5px;
 }
-
 .featured-articles-container {
 	display: flex;
 	justify-content: center;
 }
-
 .featured-articles-section {
 	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: auto;
 	max-width: 1500px;
 }
-
 .featured-article {
 	display: flex;
 	margin: 5px;
 }
-
 .featured-article-link {
 	display: flex;
 	position: relative;
 	width: 100%;
 	height: auto;
 }
-
 .featured-article-image {
 	height: 100%;
 	object-fit: cover;
 	width: 100%;
 }
-
 .featured-article-text {
 	position: absolute;
 	padding: 10px;
@@ -489,51 +434,41 @@ footer {
 	left: 0;
 	color: white;
 }
-
 .conference-text-container {
 	display: flex;
 	flex-direction: column;
 }
-
 #plugg-channel {
 	background-image: url('../images/pictures/background-1.webp');
 }
-
 #neural-channel {
 	background-image: url('../images/pictures/background-2.jpg');
 }
-
 #shft-channel {
 	background-image: url('../images/pictures/background-3.jpg');
 }
-
 #growth-quarters-channel {
 	background-image: url('../images/pictures/background-4.jpg');
 }
-
 #hard-fork-channel {
 	background-image: url('../images/pictures/background-5.webp');
 }
-
 .customer-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 50px 0;
 }
-
 .customer {
 	display: flex;
 	justify-content: center;
 }
-
 .work-with-us-section {
 	display: flex;
 	width: 60%;
 	padding-top: 50px;
 	justify-content: space-between;
 }
-
 .work-with-us-text-container {
 	display: flex;
 	flex-direction: column;
@@ -541,82 +476,67 @@ footer {
 	flex-shrink: 1;
 	flex-grow: 0;
 }
-
 .work-with-us-text-container > p {
 	line-height: 24px;
 }
-
 .work-with-us-text-container > h3 {
 	margin-bottom: 10px;
 }
-
 .work-with-us-text-container > h1 {
 	margin-bottom: 25px;
 }
-
 .work-with-us-graphics-container {
 	display: flex;
 	flex-wrap: wrap;
 	height: 300px;
 	align-items: center;
 }
-
 .work-with-us-graphic {
 	display: flex;
 	align-items: center;
 	flex-basis: 50%;
 	justify-content: center;
 }
-
 .latest-stories-section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 100px;
 }
-
 .latest-stories-container {
 	display: flex;
 	width: 90%;
 	flex-direction: column;
 }
-
 .latest-stories-list {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 .latest-story {
 	text-decoration: none;
 	flex-basis: 25%;
 	display: flex;
 	flex-direction: column;
 }
-
 .latest-story-article-image {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
-
 .latest-story-title {
 	color: #000;
 }
-
 .latest-story-time-since-published {
 	color: rgb(167,170,178);
 }
-
 .more-news-btn-container {
 	display: flex;
 	justify-content: center;
 	margin: 50px 0;
 }
-
 .more-news-btn {
 	padding: 10px;
 }
-
 /* SMALL VIEWPORT RULES */
 @media (max-width: 1023px) {
 	.nav-col-2, .nav-col-3, .ad-banner {
