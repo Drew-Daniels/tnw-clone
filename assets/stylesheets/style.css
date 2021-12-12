@@ -504,8 +504,13 @@ footer {
 }
 .latest-stories-container {
 	display: flex;
-	width: 90%;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	max-width: 80rem;
 	flex-direction: column;
+}
+.latest-stories-header {
+	margin-bottom: 50px;
 }
 .latest-stories-list {
 	display: flex;
@@ -513,11 +518,12 @@ footer {
 }
 .latest-story {
 	text-decoration: none;
-	flex-basis: 25%;
+	flex-basis: 21%;
+	padding: 1%;
 	display: flex;
 	flex-direction: column;
 }
-.latest-story-article-image {
+.latest-story-image {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
